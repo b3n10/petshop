@@ -8,29 +8,39 @@
     <title>Brad Pet</title>
   </head>
   <body>
-    <h1>Welcome to Brad Pet</h1>
-    <h3>Your online pet store to shop for your favorite pets</h3>
-    <ul>
-      <li>Login</li>
-      <li>or</li>
-      <li>Browse pets</li>
-    </ul>
-    <form action="login.php" method="POST">
-      <label for="">Username or Email</label>
-      <input type="text">
-      <br>
-      <label for="">Password</label>
-      <input type="password">
-      <button type="submit">Meow</button>
-      <button type="reset">Argggg</button>
-    </form>
-    <hr>
-    <p>Ben Lleve &copy; 2017</p>
-    <ul>
-      Contact me
-      <li>messenger</li>
-      <li>gmail</li>
-      <li>hotmail</li>
-    </ul>
+    <div class="container">
+      <div class="header">
+        <h1>Welcome to Brad Pet</h1>
+        <p>Your online store to shop for your favorite pets</p>
+        <p>Let no human stop you from taking care of these wonderful animals.</p>
+        <p>Order now and get your pet next business day.</p>
+        <ul>
+          <li><a href="#login-form">Login</a></li>
+          <li>or</li>
+          <li><a href="#">Browse pets</a></li>
+        </ul>
+      </div>
+      <div class="login-form" id="login-form">
+        <form action="login.php" method="POST">
+          <label for="">Username or Email</label>
+          <input type="text" id="txt-username">
+          <br>
+          <label for="">Password</label>
+          <input type="password">
+          <br>
+          <button type="submit">Meow</button>
+          <button type="reset">Argggg</button>
+        </form>
+      </div>
+      <div class="footer">
+        <p>Ben Lleve &copy; 2017</p>
+        <p>Contact me</p>
+        <ul>
+          <li>messenger</li>
+          <li>gmail</li>
+          <li>hotmail</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
