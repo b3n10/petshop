@@ -33,8 +33,11 @@ git clone https://github.com/b3n10/petshop.git
 
 **TODO**
 
-* Login page
-* Pet selection page
+* Login page ^
+* Create user page (automatic login)
+* Pet selection page (even without logging in)
+	* main page
+	* specific pet page
 * Purchase page
 * Sell pet page
-* Buyer/Seller page
+* Users page
