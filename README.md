@@ -34,9 +34,11 @@ git clone https://github.com/b3n10/petshop.git
 **TODO**
 
 * Login page ^
-* Create user page (automatic login)
+* Create user page (automatic login) ^
+	* Success created page (greet new user)
+	* Link to go to selection page (or 5 sec auto redirect)
 * Pet selection page (even without logging in)
-	* main page
+	* main page - Browse Pet | Sell a Pet | User Settings | Log out
 	* specific pet page
 * Purchase page
 * Sell pet page
